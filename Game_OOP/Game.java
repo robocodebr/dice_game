@@ -1,6 +1,7 @@
 package Game_OOP;
-import acm.program.*;
+
 import acm.graphics.*;
+import acm.program.GraphicsProgram;
 
 public class Game extends GraphicsProgram {
 	public Player player1;
