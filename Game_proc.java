@@ -1,9 +1,15 @@
 
 import java.awt.Color;
-
+import java.awt.Dimension;
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTable;
+
 import acm.graphics.*;
+import acm.gui.*;
 import acm.io.*;
 import acm.program.*;
 import acm.util.RandomGenerator;
@@ -39,6 +45,7 @@ public class Game_proc extends GraphicsProgram {
 					pause(1000l);
 				}
 				diceQuantity -=6;
+				
 				
 				
 			} while(diceQuantity>0);
